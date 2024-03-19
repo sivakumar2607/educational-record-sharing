@@ -1,16 +1,106 @@
-*{
-    background-color:aquamarine;
-    margin:0;
-    
-
-}
-#login{
-    width:500px;
-    margin:20vh auto 0 auto;
-    border radius:5px;
-   ]padding:30px;
-    text align:center;
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10%; 
 }
 h1{
-    text align:center;
+    text-align: center;
+    font-weight: 100;
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+    border: 2px solid gray;
+    padding: 5%;
+}
+#radioContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.signin-btn{
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: black;
+    color: white;
+}
+input[type="text"],
+input[type="password"] {
+    border: none; 
+    background-color: transparent; 
+    border-bottom: 1px solid black; 
+    padding: 5px; 
+}
+.update-cert-title{
+    font-size: 25px;
+}
+.newRecordForm{
+    display: flex;
+    justify-content: space-around;
+}
+.newRecord-box{
+    display: flex;
+    flex-direction: column;
+}
+.newRecord-section{
+    padding: 5%;
+    border: 2px solid black;
+}
+.desc-textarea{
+    height: 200px;
+    width: 300px;
+}
+.listHeading{
+    font-size: 20px;
+}
+.table{
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    background-color: rgb(16, 77, 147);
+}
+.table div{
+    padding: 1% 0;
+}
+.table-gap{
+    padding: 3px;
+}
+.table-content{
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 0;
+}
+.btn-table-section{
+    text-align: center;
+    padding-top: 1%;
+}
+.btn-table{
+    border-radius: 12px;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(67, 134, 61);
+}
+.update-cert-section{
+    display: flex;
+    flex-direction: column;
+}
+.update-cert-section input[type=text] ,
+.update-cert-section input[type=file]{
+   margin: 20px 0;
+}
+.update-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.underline{
+    width: 50px;
+    background-color: rgb(67, 134, 61);
+    height: 5px;
+    margin: 10px 0px;
 }
