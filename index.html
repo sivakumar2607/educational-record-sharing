@@ -8,25 +8,29 @@
 </head>
 <body>
     <script src="app.js"></script>
-    <div class="loginpg">
-       <form action="" id="login">
-        <div>
-            <h1>Sign in</h1>
-            <label for="userid">Userid</label>
-            <input type="text" id="userid" name="userid" pattern="[0-9]*">
+    <div>
+        <div class="container">
+        <form id="login">
+            <h1>Sign In</h1>
+            <input type="text" placeholder="Enter the Student Id" class="userid"/>
+            <input type="password" placeholder="Enter the password"/>
+            <div id="radioContainer">
+                <div>
+                <input type="radio" id="option1" name="options" value="Option 1">
+                <label for="option1">Student</label><br>
+                </div>
+                <div>
+                <input type="radio" id="option2" name="options" value="Option 2">
+                <label for="option2">Institute</label><br>
+                </div>
+                </div> 
+                <button class="signin-btn">SIGN IN!</button>             
+        </form>
         </div>
-        <div>
-            <label for="password">password</label>
-            <input type="password" id="password" name="password">
-        </div>
-        <div>
-            
-        </div>
-        <div><button type="submit">SIGN IN</button>
-        </div>
-       </form> 
     </div>
-    
-    
+    <a href="newRecord.html">Click Here</a>
+    <a href="UserlistOfRequest.html">Click Here</a>
+    <a href="certificatesPage.html">Click certificate</a>
+    <a href="UpdateCertificates.html">Click Update</a>
 </body>
 </html>
