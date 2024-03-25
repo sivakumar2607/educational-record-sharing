@@ -7,6 +7,7 @@ function CertificatePage() {
             <div className="heading">
                 List of records
             </div>
+            <div className='heading-underline'></div>
             <div className="section">
                 <div className="section-heading">
                     <div>Institute ID</div>
@@ -15,14 +16,14 @@ function CertificatePage() {
                     <div>Created Time</div>
                 </div>
                 <div className="section-request">
-                    <div>SEC</div>
+                    <div>SEC1210</div>
                     <div>Academic Certificate</div>
                     <div>Verified the certificate of Student ID</div>
                     <div>Date</div>
                 </div>
             </div>
-            <button className='container-btn'>Download</button>
         </div>
+        <button className='container-btn'>Download</button>
     </div>
   )
 }
