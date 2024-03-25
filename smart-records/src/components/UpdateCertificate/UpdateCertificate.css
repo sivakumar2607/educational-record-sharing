@@ -1,0 +1,36 @@
+.upload-heading{
+    font-size: 20px;
+}
+.myForm{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+label,
+input [type="text"]{
+    padding: 10px;
+}
+.upload-institute-id,
+.upload-student-id,
+.upload-record-name,
+.upload-description,
+.upload-timestamp
+{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black; 
+    width: 100%; 
+    padding: 5px 0;
+}
+.update-section-btn{
+    display: flex;
+    justify-content: center;
+}
+.upload-btn{
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    background-color:  rgb(69, 133, 62);
+    color: white;
+    font-size: 15px;
+}
