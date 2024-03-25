@@ -27,8 +27,7 @@
     padding: 10px 30px;
 }
 .container-btn{
-    margin-left: 50%;
-    margin-right: 50%;
+    margin: 20px 50%;
     background-color:  rgb(69, 133, 62);
     color: white;
     font-size: 15px;

@@ -1,0 +1,27 @@
+.userlist-heading{
+    font-size: 20px;
+}
+.userlist-section-heading{
+    padding: 10px;
+    display: flex;
+    justify-content:  space-between;
+    background-color: rgb(16, 77, 147);
+    color: white;
+}
+.userlist-section-content{
+    padding: 10px;
+    display: flex;
+    justify-content:  space-between;
+}
+.userlist-section-btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.userlist-btn{
+    font-size: 15px;
+    background-color:  rgb(69, 133, 62);
+    color: white;
+    border:none;
+    padding: 5px 30px;
+}
