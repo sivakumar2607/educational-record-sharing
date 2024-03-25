@@ -1,0 +1,41 @@
+.newrecord-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.newrecord-left-heading,
+.newrecord-right-heading{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.newrecord-inputs{
+    display: flex;
+    flex-direction: column;
+}
+.newrecord-studentid,
+.newrecord-instituteid,
+.newrecord-recordname{
+padding: 10px;
+border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black; 
+    width: 100%; 
+    padding: 5px 0;
+}
+.newrecord-section-btn{
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+}
+.newrecord-btn{
+    background-color:  rgb(69, 133, 62);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border:none;
+}
+.newrecord-right-textarea{
+    width: 250px;
+    height: 250px;
+    resize: none;
+}
