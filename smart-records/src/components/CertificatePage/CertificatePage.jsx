@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './CertificatePage.css'
 function CertificatePage() {
   return (
     <div>
