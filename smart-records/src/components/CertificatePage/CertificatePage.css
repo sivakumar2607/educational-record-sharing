@@ -1,0 +1,36 @@
+.container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-size: 25px;
+}
+.heading-underline{
+    width: 50px;
+    height: 3px;
+    background-color:  rgb(69, 133, 62);
+    margin-bottom: 10px;
+}
+.section-heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(16, 77, 147);
+    color: white;
+    padding: 10px 20px;
+}
+.section-request{
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    padding: 10px 30px;
+}
+.container-btn{
+    margin: 20px 50%;
+    background-color:  rgb(69, 133, 62);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
