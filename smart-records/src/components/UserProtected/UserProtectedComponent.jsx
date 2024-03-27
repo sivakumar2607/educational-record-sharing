@@ -2,7 +2,7 @@ import React from 'react'
 
 function UserProtectedComponent() {
   return (
-    <div>UserProtectedComponent</div>
+    <div>Protected</div>
   )
 }
 
