@@ -1,8 +1,11 @@
-import React,{useState,useEffect} from "react";
+import React,{useState,useEffect,useRef} from "react";
 import Keycloak from 'keycloak-js'
 function useAuth(){
+const isRun = useRef(false)
 const[isLogin,setLogin] = useState(false);
 useEffect(()=>{
+    if(isRun) return;
+    isRun = true;
     const client = new Keycloak({
         url:import.meta.env.VITE_KEYCLOAK_URL,
         realm:import.meta.env.VITE_KEYCLOAK_REALM,
