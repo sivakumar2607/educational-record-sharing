@@ -1,5 +1,6 @@
 import React from 'react'
 import './NewRecord.css'
+import UserLoginPage from '../UserLoginPage/UserLoginPage'
 function NewRecord() {
   return (
     <div>
@@ -31,6 +32,7 @@ function NewRecord() {
           </form>
         </div>
       </div>
+      <UserLoginPage/>
     </div>
   )
 }
