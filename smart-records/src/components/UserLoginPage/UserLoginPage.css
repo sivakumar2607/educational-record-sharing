@@ -1,0 +1,31 @@
+.userLogin-navbar{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.userLogin-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.userLogin-section div{
+    display:flex;
+    justify-content: center;
+}
+.userLogin-btn button{
+    width:100px;
+    height:100px;
+    padding: auto;
+    font-size: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.userLogin-btn-desc{
+    padding: 10px 0px;
+    font-size: 30px;
+}
