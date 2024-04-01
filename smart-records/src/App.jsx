@@ -6,6 +6,6 @@ import UserProtectedComponent from "./components/UserProtected/UserProtectedComp
 import UserLoginPage from "./components/UserLoginPage/UserLoginPage";
 function App(){
  const isLogin = useAuth();
- return isLogin ? <UserProtectedComponent/> : <UserLoginPage/>
+ return isLogin ?  <UserLoginPage/> :  <UserProtectedComponent/> 
 }
 export default App;
