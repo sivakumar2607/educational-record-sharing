@@ -32,7 +32,7 @@ function NewRecord() {
           </form>
         </div>
       </div>
-      <UserLoginPage/>
+      {/* <UserLoginPage/> */}
     </div>
   )
 }

@@ -3,6 +3,7 @@ import './CertificatePage.css'
 function CertificatePage() {
   return (
     <div>
+        
         <div className="container">
             <div className="heading">
                 List of records
